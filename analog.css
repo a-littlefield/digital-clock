@@ -1,0 +1,41 @@
+.main {
+	position: relative;
+}
+
+.hoursP .minutesP .secondsP{
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+.hours{
+	background-color: black;
+	height: 28%;
+	left: 15.99%;
+	position: absolute;
+	top: 21.2%;
+	transform-origin: 50% 100%;
+	width: 1%;
+}
+.minutes{
+	background-color: black;
+	height: 39%;
+	left: 16.1%;
+	position: absolute;
+	top: 10%;
+	transform-origin: 50% 100%;
+	width: 0.7%;
+}
+.seconds{
+	background-color: red;
+	height: 44%;
+	left: 16.3%;
+	position: absolute;
+	top: 5%;
+	transform-origin: 50% 100%;
+	width: 0.3%;
+	transform:(36deg);
+}
+
